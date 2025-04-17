@@ -1,0 +1,243 @@
+    /* Search Bar Overlap */
+    .search-container {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+        z-index: 10;
+    }
+
+    /* categories Content */
+    .main-container {
+        max-width: 94%;
+        margin: 50px auto;
+        height: 148px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-container-2 {
+        position: relative;
+        top: -30px;
+        max-width: 94%;
+        margin: 50px auto;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+        font-size: 18px;
+        padding-top: 10px;
+        color: black;
+        font-weight: bold;
+        background-color: ;
+    }
+
+    .scroll-container {
+        display: block;
+        font-weight: bold;
+        font-size: 10px;
+        color: black;
+        display: flex;
+        border-radius: 50%;
+        display: flex;
+        gap: 15px;
+        justify-content: space-around;
+        overflow-x: auto;
+        white-space: nowrap;
+        background: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .scroll-item {
+        display: inline-block;
+        min-width: 70px;
+        height: 70px;
+        margin: 5px;
+        padding-top: 5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #4caf50;
+        color: white;
+        text-align: center;
+        line-height: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 48px;
+    }
+
+    .scroll-icon {
+        text-decoration: none;
+        color: black;
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+        justify-content: space-around;
+        background: white;
+        border: 4px solid black;
+        border-radius: 20px;
+        padding: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .scroll-item span {
+        display: block;
+        font-weight: bold;
+        font-size: 10px;
+        color: black;
+    }
+
+    .show-more span {
+        display: block;
+        font-weight: bold;
+        font-size: 10px;
+        color: black;
+    }
+
+    . .show-more {
+        position: relative;
+        top: 40px;
+        text-decoration: none;
+        color: black;
+        width: 70px;
+        height: 70px;
+        margin: 2px;
+        justify-content: space-around;
+        background: white;
+        border: 4px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .show-icon {
+        text-decoration: none;
+        color: black;
+        width: 70px;
+        height: 70px;
+        margin: 2px;
+        justify-content: space-around;
+        background: white;
+        border: 4px solid black;
+        border-radius: 20px;
+        padding: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .logo-1 {
+        justify-content: center;
+    }
+
+    .logo-2 {
+        padding-bottom: 15px;
+    }
+
+    .scroll-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .laptops {
+        background: linear-gradient(to right, #56ccf2, #2f80ed);
+    }
+
+    .personal-care {
+        background: linear-gradient(to right, #d4145a, #fbb03b);
+    }
+
+    .mobile {
+        background: linear-gradient(to right, #fceabb, #f8b500);
+    }
+
+    .slider-carousel {
+        position: relative;
+        top: -30px;
+    }
+
+    /* Banner Section */
+    .banner {
+        position: relative;
+        top: -50px;
+        padding-left: 20px;
+        background-color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .container-banner {
+        font-size: 18px;
+        padding-top: 0px;
+        color: black;
+        font-weight: bold;
+        background-color: ;
+    }
+
+    /* new arrival */
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .card-container {
+        width: 220px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: fixed;
+        text-align: center;
+        padding: 10px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* New styles for category icons */
+    .category-icon {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .category-label {
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .category-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
