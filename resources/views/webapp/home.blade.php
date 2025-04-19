@@ -11,7 +11,7 @@
             <div class="innerwapperbox">
                 <div class="hedbox">
                     <div class="left">
-                        <h3>Welcome to JSM Mobile</h3>
+                        <h3>Welcome to Sparsh Plaza</h3>
                         <p style="margin: 0; font-size: 14px;">Find anything what you want</p>
                     </div>
                     <div class="right">
